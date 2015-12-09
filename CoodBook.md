@@ -5,9 +5,9 @@ The data for the project foram extraidos do UCI HAR Dataset:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The final file variables:
-The 561 variables of the train and test files were reduced to 56 mean and 33 standard deviation.
-For the final file "tidy.txt" they were only selected those who had 'mean' or 'std' in label.
-Were added variables 'subject' and 'activity' to each observation.
+  * The 561 variables of the train and test files were reduced to 56 mean and 33 standard deviation.
+  * For the final file "tidy.txt" they were only selected those who had 'mean' or 'std' in label.
+  * Were added variables 'subject' and 'activity' to each observation.
 
 Cleaning of data:
   * Removal of all variables that were not 'mean' or 'std' in label.
