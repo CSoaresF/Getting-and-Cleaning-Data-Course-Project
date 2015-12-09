@@ -10,10 +10,13 @@ For the final file "tidy.txt" they were only selected those who had 'mean' or 's
 Were added variables 'subject' and 'activity' to each observation.
 
 Cleaning of data:
-    * Removal of all variables that were not 'mean' or 'std' in label.
-    * Correction of some labels:
-     '-mean' -> 'Mean'; '-std' -> 'Std', 'BodyBody' -> 'Body'; removal of parenthesis '()'.
-    * Adding variable 'subject' and 'activity'.
-    * Calculation of average values observed by subject and activity.
+  * Removal of all variables that were not 'mean' or 'std' in label.
+  * Correction of some labels: 
+      * '-mean' -> 'Mean'; 
+      * '-std' -> 'Std';
+      * 'BodyBody' -> 'Body';
+      * removal of parenthesis '()'.
+  * Adding variable 'subject' and 'activity'.
+  * Calculation of average values observed by subject and activity.
 
 The final file is 180 records: 30 subjects x 6 activities.
