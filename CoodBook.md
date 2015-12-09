@@ -16,4 +16,4 @@ Cleaning of data:
     * Adding variable 'subject' and 'activity'.
     * Calculation of average values observed by subject and activity.
 
-The final file is 180 records, 30 subjects x 6 activities.
+The final file is 180 records: 30 subjects x 6 activities.
