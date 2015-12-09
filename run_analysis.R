@@ -64,3 +64,4 @@ setwd("C:/GCD_PRJ/")
 if(!file.exists("C:/GCD_PRJ/results")) {dir.create("C:/GCD_PRJ/result")}
 setwd("C:/GCD_PRJ/results")
 write.table(train_and_test_mean, "tidy.txt", row.names = FALSE, quote = FALSE)
+# 
