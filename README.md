@@ -16,9 +16,9 @@ The CodeBook.md describes the variables, the data, and transformations that was 
 
 The R script called run_analysis.R contains the code to perform the clean up the data.
 It does the following:
-    Extracts only the measurements on the mean and standard deviation for each measurement. 
-    Uses descriptive activity names to name the activities in the data set
-    Merges the training and the test sets to create one data set. 
-    Appropriately labels the data set with descriptive variable names. 
-    Creates a independent tidy data set "tidy.txt" with the average of each variable for each activity and each subject.
+    * Extracts only the measurements on the mean and standard deviation for each measurement. 
+    * Uses descriptive activity names to name the activities in the data set
+    * Merges the training and the test sets to create one data set. 
+    * Appropriately labels the data set with descriptive variable names. 
+    * Creates a independent tidy data set "tidy.txt" with the average of each variable for each activity and each subject.
 
